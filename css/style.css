@@ -1,0 +1,288 @@
+.header .wrapper
+ {
+	width:100%;
+    margin:auto;	
+ }
+ 
+  .banner .wrapper
+ {
+	width:100%;
+    margin:auto;	
+ }
+ .logos .wrapper
+ {
+	 width:100%;
+	 margin:auto;	
+ }
+ .plans.wrapper
+ {
+	 width:100%;
+	 margin:auto;	
+ }
+ .customers .wrapper
+ {
+	  width:80%;
+	 margin:auto;	
+ }
+ .contact.wrapepr
+ {
+	  width:80%;
+	 margin:auto;	
+ }
+ .header
+ {
+	 height:80px;
+ }
+ .header .header-fc 
+ {
+	 display:flex;
+ }
+ .header .header-fc .home
+ {
+	 text-align:center;
+	 background-color:violet;
+	 width:50%;
+	 height:80px;
+ }
+ .header .header-fc .navi
+ {
+	 text-align:center;
+	 background-color:pink;
+	 width:50%;
+	 height:80px;
+ }
+ .banner 
+{
+	text-align:center;
+	height:390px;
+	width:100%;
+	background-color:coral;
+}
+.banner .banner-fc 
+{
+	display:flex;
+	flex-direction:row;
+}
+.banner .banner-fc .boxa
+{
+	margin:auto;
+	height:80px;
+	width:20%;
+	background-color:#03a9f4;
+	margin-top:200px;
+}
+ .banner .banner-fc .boxb
+{
+	height:80px;
+	width:20%;
+	background-color:#03a9f4;
+	margin:auto;
+	margin-top:200px;
+}
+.logos 
+{
+	height:500px;
+	background-color:lightgreen;
+}
+.logos .logos-fc 
+{
+	display:flex;
+    flex-direction:row;
+	justify-content:space-evenly;
+}
+.logos .logos-fc .boxa
+{
+	text-align:center;
+	margin-top:100px;
+	height:300px;
+	width:25%;
+	background-color:#e91863;
+}
+.logos .logos-fc .boxb
+{
+	text-align:center;
+	margin-top:100px;
+	height:300px;
+	width:25%;
+	background-color:#e91863;
+}
+.logos .logos-fc .boxc
+{
+	text-align:center;
+	margin-top:100px;
+	height:300px;
+	width:25%;
+	background-color:#e91863;
+}
+.plans
+{
+	height:800px;
+	background-color:teal;
+}
+.plans .plans-fc
+{
+	display:flex;
+	justify-content:space-evenly;
+	flex-direction:row;
+}
+.plans .plans-fc .free
+{
+	text-align:center;
+	margin-top:180px;
+	height:400px;
+	width:25%;
+	background-color:pink;
+}
+.plans .plans-fc .free-fc
+{
+	display:flex;
+	justify-content:center;
+	margin:auto;
+	
+}
+.plans .plans-fc .free .free-fc .smalla
+{
+	margin-top:320px;
+	text-align:center;
+	background-color:yellow;
+	height:50px;
+	width:80%;
+	
+}
+.plans .plans-fc .pro
+{
+	text-align:center;
+	margin-top:180px;
+	height:400px;
+	width:25%;
+	background-color:pink;
+}
+.plans .plans-fc  .pro-fc
+{
+	display:flex;
+	justify-content:center;
+	margin:auto;
+	
+}
+.plans .plans-fc .pro .pro-fc .smallb
+{
+	margin-top:320px;
+	text-align:center;
+	background-color:yellow;
+	height:50px;
+	width:80%;
+	
+}
+.plans .plans-fc .enterprice
+{
+	text-align:center;
+	margin-top:180px;
+	height:400px;
+	width:25%;
+	background-color:pink;
+}
+.plans .plans-fc  .enterprice-fc
+{
+	display:flex;
+	justify-content:center;
+	margin:auto;
+	
+}
+.plans .plans-fc  .enterprice .enterprice-fc .smallc
+{
+	margin-top:320px;
+	text-align:center;
+	background-color:yellow;
+	height:50px;
+	width:80%;
+	
+}
+.customers
+{
+	background-color:goldenrod;
+	height:600px;
+}
+.customers .customers-fc 
+{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.customers .customers-fc .boxa
+{
+	text-align:center;
+	margin-top:70px;
+	width:90%;
+	background-color:plum;
+	height:200px;
+	
+}
+.customers .customers-fc .boxb
+{
+	text-align:center;
+margin-top:70px;
+	width:90%;
+	background-color:plum;
+	height:200px;
+	
+}
+.contact
+{
+	background-color:lightblue;
+    height:900px;
+}
+.contact .contact-fc
+{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	flex-wrap:wrap;
+	align-items:center;
+}
+.contact .contact-fc .boxa
+{
+	text-align:center;
+	height:100px;
+	width:50%;
+	background-color:crimson;
+	margin-top:100px;
+}
+.contact .contact-fc .boxb
+{
+	text-align:center;
+	height:100px;
+	width:50%;
+	background-color:crimson;
+	margin-top:40px;
+}
+.contact .contact-fc .boxc
+{
+	text-align:center;
+	height:100px;
+	width:50%;
+	background-color:crimson;
+	margin-top:40px;
+}
+.contact .contact-fc .boxd
+{
+	text-align:center;
+	height:100px;
+	width:50%;
+	background-color:crimson;
+	margin-top:40px
+}
+	.contact .contact-fc .boxe
+{
+	text-align:center;
+	height:100px;
+	width:50%;
+	background-color:crimson;
+	margin-top:30px;
+}
+.copyright
+{
+	text-align:center;
+	height:100px;
+	width:100%;
+	background-color:yellow;
